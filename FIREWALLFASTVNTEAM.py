@@ -146,7 +146,7 @@ def main():
     print("")
     confirmation = input("Bạn có chắc chắn muốn tiếp tục không? (y/n): ")
 
-    if confirmation.lower() not in ["y", "yes"]:
+    if confirmation.lower() not in ["y", "yes", "ok"]:
         print("Đã thoát.")
         return
 
