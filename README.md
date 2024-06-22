@@ -22,8 +22,8 @@ Cài đặt iptables (nhớ tắt firewall mặc định của OS trước)
   RPM based systems: sudo dnf install iptables
 ```
 Sau đó, chỉ cần khởi động script và sử dụng
-```bash
-  python3 (hoặc python) antibip.py
+```
+nội dung đã ẩn
 ```
 Bạn có thể lưu vĩnh viễn các rules IPTables bằng cách sử dụng ``iptables-persistent``
 ```bash
